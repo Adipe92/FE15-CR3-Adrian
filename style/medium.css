@@ -1,0 +1,13 @@
+@media screen and (min-width:501px) and (max-width:840px) {
+
+    .header-img .header-text h1 {
+        font-size: 30px; 
+        
+    }
+
+    .header-img .header-text h1 span {
+        font-size: 45px; 
+        
+    }
+    
+}

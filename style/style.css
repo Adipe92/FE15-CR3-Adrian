@@ -1,0 +1,269 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.navbar-nav {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.header-img {
+  background-image: url("/img/bg_hero.jpg");
+  position: relative;
+  height: 600px;
+}
+
+.header-img .header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+}
+
+.header-img .header-text h1 {
+  font-size: 70px;
+}
+
+.header-img .header-text h1 span {
+  margin-left: 30px;
+  color: #feee00;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.header-img .header-text .stuff {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-img .header-text .stuff .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-img .header-text .stuff .icon i {
+  margin-right: 1em;
+}
+
+.header-img .header-text button {
+  width: 110px;
+  height: 40px;
+  border: none;
+  background-color: #feee00;
+  border-radius: 7px 7px 5px;
+  -webkit-box-shadow: black 1px 1px;
+          box-shadow: black 1px 1px;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.header-img .header-text button:hover {
+  background-color: white;
+}
+
+.header-img .header-text button a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-shadow: black 1px 1px;
+  font-weight: bold;
+  font-size: 13px;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.header-img .header-text button a:hover {
+  color: black;
+}
+
+.header-img .hero-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+/*Main*/
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.tab {
+  margin: 20px 0px 20px;
+  height: 30px;
+  background-image: url("/img/bg_top.jpg");
+  color: white;
+  border-radius: 3px 3px 3px;
+}
+
+.tab h1 {
+  position: relative;
+  left: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: black 1px 1px;
+  text-transform: uppercase;
+}
+
+.tab h1 img {
+  margin-right: 15px;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.container .box-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .box-text .calendar {
+  position: relative;
+  right: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.container .box-text .calendar h4 {
+  position: relative;
+  top: 100px;
+  font-size: 20px;
+  color: #b31c1c;
+}
+
+.container .box-text .calendar p {
+  position: relative;
+  top: 100px;
+}
+
+.container .box-text .price {
+  font-size: 13px;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  top: 15px;
+  left: 45%;
+}
+
+.btn button {
+  width: 110px;
+  height: 40px;
+  border: none;
+  background-color: #feee00;
+  border-radius: 7px 7px 5px;
+  -webkit-box-shadow: black 1px 1px;
+          box-shadow: black 1px 1px;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.btn button:hover {
+  background-color: white;
+}
+
+.btn button a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-shadow: black 1px 1px;
+  font-weight: bold;
+  font-size: 13px;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.btn button a:hover {
+  color: black;
+}
+
+.contact-form {
+  position: relative;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #d4d4d4;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-form .img-site h1 {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.contact-form .img-site img {
+  position: relative;
+  top: 20px;
+  width: 300px;
+}
+
+.contact-form .letter {
+  position: relative;
+  top: 70px;
+  left: 20PX;
+  width: 30%;
+  margin-left: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+
+footer .copy {
+  position: relative;
+  top: 60%;
+  left: 43%;
+  color: white;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+  .header-img {
+    height: 450px;
+  }
+  .header-img .header-text h1 {
+    font-size: 20px;
+  }
+  .header-img .header-text h1 span {
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  .header-img .header-text .stuff {
+    font-size: 10px;
+  }
+  .header-img .header-text .stuff i {
+    margin-left: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
